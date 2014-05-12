@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Nikolaus Sonnenschein</title>
+	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="robots" content="all" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->	
+	<style>
+		* { padding: 0; margin: 0; }
+		body { background-color: #000000; }
+		p { color: #fff; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
+		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
+		a:hover { color: #3399FF; border-bottom: 1px solid rgba(255,255,255,1); }
+		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
+		#about {background: #000000/*#666666*/; opacity:0.8; width: 400px; padding: 20px 20px 20px 20px; margin: -30px 50px 0 auto !important; }
+		@media (max-width: 767px) {
+			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
+			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
+			background-image { opacity: 0.8; }
+		}
+	</style>
+</head>	
+    
+<body>
+
+<!-- swap out for a logo -->
+<div id="monogram">
+	<!-- <img src="monogram.png" /> -->
+</div>
+
+<!-- swap out for information about yourself -->
+<div id="about">
+	<p>I am an <em>in silico</em> strain engineer at <a href="http://www.biosustain.dtu.dk/">The Novo Nordisk Foundation Center for Biosustainability</a> at <a href="http://dtu.dk/">DTU</a>, Denmark. Before moving to Denmark, I worked as a postdoc in the <a href="http://systemsbiology.ucsd.edu/">Systems Biology Research Group</a> at <a href="http://ucsd.edu/">University of California, San Diego</a> developing the <a href="http://sbrg.github.io/MASS-Toolbox/">MASS Toolbox</a>, a kinetic and constraint-based modeling environment for metabolic systems.
+  </p>
+  <p>
+    Before going overseas, I received a PhD in Bioinformatics from <a href="http://jacobs-university.de/">Jacobs University Bremen</a> and a Biology diploma from
+  <a href="http://www.bio.tu-darmstadt.de/biologie_1/home.de.jsp">Technische Universität Darmstadt</a>.
+  </p>
+	
+	<p> My <a href="http://scholar.google.com/citations?user=8RqKcm0AAAAJ&hl=en">publications</a> include work on network and constraint-based modeling approaches to metabolism
+ 		and its regulation. A full track record of my academic activities can be found in my
+		<a href="cv_for_web.pdf">CV</a> and <a href="http://scholar.google.dk/citations?user=8RqKcm0AAAAJ&hl=en">Google Scholar</a>.
+	</p>
+	<p>Code development belongs to my everyday work, some of it ends up on <a href="https://github.com/phantomas1234">Github</a>.
+	<!-- I am coding mainly in my two favorite programming languages <a href="www.wolfram.com/Mathematica-9">Mathematica</a> and
+		<a href="http://www.python.org/">Python</a>. -->
+	</p> 
+</div>
+
+<!--include jquery & backstretch-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+$(function(){
+     $(window).resize(function(){
+         if($(this).width() >= 767){
+             $.backstretch("wordle_optimized.png", {speed: 650});
+         }
+      })
+      .resize();//trigger resize on page load
+});
+</script>
+
+</body>	
+</html>
