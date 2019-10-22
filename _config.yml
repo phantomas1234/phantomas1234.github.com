@@ -14,7 +14,7 @@ picture: https://media.licdn.com/dms/image/C4E03AQEDqicxO2NBgg/profile-displayph
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://phantomas1234.githbub.io/markdown-cv
+resume-url: http://nikosonnensche.in/markdown-cv
 
 url: http://nikosonnensche.in
 # your url: http://USERNAME.github.io
@@ -57,9 +57,9 @@ authors:
     niko:
         name: Nikolaus Sonnenschein
         bio: Computational biologist
-        external-image: false
-        picture: assets/images/profile.jpg
-        twitter: johndoe
+        external-image: true
+        picture: https://media.licdn.com/dms/image/C4E03AQEDqicxO2NBgg/profile-displayphoto-shrink_200_200/0?e=1577318400&v=beta&t=DhbFkWj5dJC24qcLT4kd6LyyNsleGYF6Tf-O3Vv_VMc
+        twitter: phantomas1234
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
