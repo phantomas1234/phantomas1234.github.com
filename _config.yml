@@ -1,6 +1,6 @@
 # main text of home
 name: Nikolaus Sonneschein
-bio: Computational biologist
+bio: Biologist/Guitarist
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -37,7 +37,7 @@ disqus:
 # facebook: myfacebook
 twitter: phantomas1234
 # google: mygoogle
-# instagram: myinstagram
+instagram: phantomas1234
 # pinterest: mypinterest
 linkedin: nikosonnenschein
 # youtube: myyoutube
@@ -56,7 +56,7 @@ email: niso@dtu.dk
 authors:
     niko:
         name: Nikolaus Sonnenschein
-        bio: Computational biologist
+        bio: Biologist/Musician
         external-image: true
         picture: https://media.licdn.com/dms/image/C4E03AQEDqicxO2NBgg/profile-displayphoto-shrink_200_200/0?e=1577318400&v=beta&t=DhbFkWj5dJC24qcLT4kd6LyyNsleGYF6Tf-O3Vv_VMc
         twitter: phantomas1234
@@ -71,10 +71,10 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
-about: true
+about: false
 blog: false
 
 # do you want to show the "read time" of the posts?
