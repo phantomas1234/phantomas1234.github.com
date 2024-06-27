@@ -13,8 +13,8 @@ picture: https://avatars3.githubusercontent.com/u/55217?s=460&v=4
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: http://nikosonnensche.in/markdown-cv
+resume-external: local
+resume-url: CV_Niko_Sonnenschein.pdf
 
 url: http://nikosonnensche.in
 # your url: http://USERNAME.github.io
